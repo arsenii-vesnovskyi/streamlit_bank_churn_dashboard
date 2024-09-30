@@ -1,4 +1,4 @@
-# s1_Arsenii_Vesnovskyi
+# streamlit_bank_churn_dashboard
 
 This repository contains the following files:
 - bank_churn_app.py - Streamlit app python script
