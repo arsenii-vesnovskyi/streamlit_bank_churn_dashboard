@@ -2,7 +2,7 @@
 
 This repository contains the following files:
 - bank_churn_app.py - Streamlit app python script
-- Dataset Selection and Prototype Description.txt - File with the short explanation about the prototype and link to the video
+- Dataset Selection and Prototype Description.txt - File with the short explanation of the prototype-
 - image-banner.png - image used in app
 - image_sidebar.png - image used in app
 - requirements.txt - needed versions of the libraries
