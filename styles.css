@@ -1,0 +1,120 @@
+/* 
+   CSS code for styling various elements in the Streamlit app.
+   It sets the font family, colors, background, and styles for buttons, input fields, sliders, markdown content, etc.
+*/
+
+/* Button */
+.stButton>button {
+    border-radius: 0.5rem; /* Rounded corners */
+    background-color: #007bff; /* Blue background color */
+    border: none; /* No border */
+    color: white; /* Text color */
+    padding: 0.5rem 1rem; /* Padding */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+.stButton>button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.stButton>button:active {
+    background-color: #004080; /* Even darker blue when clicked */
+}
+
+.stButton>button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5); /* Add focus shadow */
+}
+
+/* Selectbox */
+.stSelectbox>div>div>div>div {
+    border-radius: 0.5rem; /* Rounded corners */
+    border: 1px solid #ced4da; /* Border color */
+    padding: 0.5rem; /* Padding */
+}
+
+/* Text Input */
+.stTextInput>div>div>div>input {
+    border-radius: 0.5rem; /* Rounded corners */
+    border: 1px solid #ced4da; /* Border color */
+    padding: 0.5rem; /* Padding */
+}
+
+/* Markdown */
+.stMarkdown>p {
+    margin-bottom: 1rem; /* Bottom margin */
+    line-height: 1.6; /* Line height */
+}
+
+.stMarkdown>div>ul, .stMarkdown>div>ol {
+    padding-left: 2rem; /* Indentation for lists */
+    margin-bottom: 1rem; /* Bottom margin */
+}
+
+.stMarkdown>div>ul>li, .stMarkdown>div>ol>li {
+    margin-bottom: 0.5rem; /* Bottom margin for list items */
+}
+
+.stMarkdown>div>pre>code {
+    padding: 1rem; /* Padding for code blocks */
+    background-color: #f8f9fa; /* Background color for code blocks */
+    border-radius: 0.5rem; /* Rounded corners */
+}
+
+.stMarkdown>div>blockquote {
+    border-left: 4px solid #007bff; /* Left border color for blockquotes */
+    padding: 0.5rem 1rem; /* Padding for blockquotes */
+    background-color: #f0f3f6; /* Background color for blockquotes */
+    margin-bottom: 1rem; /* Bottom margin for blockquotes */
+}
+
+.stMarkdown>div>p>a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition on hover */
+}
+
+.stMarkdown>div>p>a:hover {
+    color: #0056b3; /* Darker link color on hover */
+}
+
+.stMarkdown>div>p>code {
+    background-color: #f8f9fa; /* Background color for inline code */
+    padding: 0.1rem 0.3rem; /* Padding for inline code */
+    border-radius: 0.3rem; /* Rounded corners */
+    font-size: 0.9rem; /* Font size */
+}
+
+/* Error message */
+.stAlert.stError>div>div {
+    padding: 0.75rem; /* Padding */
+    border-radius: 0.375rem; /* Rounded corners */
+    border: 1px solid #dc3545; /* Red border */
+    background-color: #f8d7da; /* Light red background */
+    color: #721c24; /* Dark red text */
+}
+
+/* Additional CSS classes for highlighted messages */
+.increase {
+    background-color: #f8d7da; /* Red box */
+    border: 1px solid #dc3545; /* Dark red frame */
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 1rem; /* Padding */
+    margin-bottom: 1rem; /* Bottom margin */
+}
+
+.decrease {
+    background-color: #d4edda; /* Green box */
+    border: 1px solid #28a745; /* Dark green frame */
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 1rem; /* Padding */
+    margin-bottom: 1rem; /* Bottom margin */
+}
+
+.same {
+    background-color: #e9ecef; /* Gray box */
+    border: 1px solid #6c757d; /* Dark gray frame */
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 1rem; /* Padding */
+    margin-bottom: 1rem; /* Bottom margin */
+}
+
